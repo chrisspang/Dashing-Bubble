@@ -1,0 +1,94 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #12b0c5;
+$value-color:       #fff;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$label-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+#bubbleid {
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.widget-bubble {
+
+    background-color: $background-color;
+    
+        .box0 {
+            -ms-transform: rotate(1deg); /* IE 9 */
+            -webkit-transform: rotate(1deg); /* Chrome, Safari, Opera */
+            transform: rotate(1deg); 
+        }
+
+        .box1 {
+            -ms-transform: rotate(-1deg); /* IE 9 */
+            -webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
+            transform: rotate(-1deg);
+        }
+        
+    .bubblebox {
+        position: absolute;
+        vertical-align: top;
+        width: 90%;
+        border: 5px solid black;
+        border-radius: 10px;
+        border-style: inset;
+        padding: 5px 5px 5px 5px;
+        margin: 30px 10px 10px 10px;
+
+    }
+
+    .bubbletime {
+        font-family: 'Dekko', cursive, sans-serif;
+        font-style: italic;
+//        text-transform: uppercase;
+        font-weight: 800;
+        font-size:  24px;
+
+        border: 1px solid;
+        border-radius: 5px;
+
+        padding: 0px 15px 0px 10px;
+        //      margin: 10px 10px 10px 10px;      
+        position: absolute;
+        top: -20px;
+        left: 10px;
+
+        background-color: rgb(255, 77, 0);
+    }
+
+    .bubbletitle {
+        font-family: 'Dekko', cursive, sans-serif;
+        font-style: italic;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size:  26px;
+        
+        border: 2px solid;
+        border-radius: 5px;
+
+        padding: 0px 15px 0px 10px;
+        //      margin: 10px 10px 10px 10px;      
+        top: -25px;
+        right: 10px;
+
+        position: absolute;
+        background-color: black;
+    }
+
+    .bubbletext {
+        font-family: 'Verdana', cursive, sans-serif;        
+        font-weight: 700;
+        font-size:  22px;
+        text-align: left;
+//        border: 1px dotted #DDDDDD;
+//        border-style: inset;        
+//        border-radius: 5px;
+        padding: 10px 10px 10px 10px;
+        margin: 5px 5px 5px 5px;
+    }
+    
+}
